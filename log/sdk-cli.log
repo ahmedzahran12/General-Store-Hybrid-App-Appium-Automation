@@ -1,0 +1,283 @@
+2026-06-27T19:10:01.472Z CLI info [main]    Server listening on port: 5400
+2026-06-27T19:10:01.782Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"deviceName":"Samsung Galaxy S22 Ultra","platformVersion":"12.0","platformName":"android"},{"deviceName":"Samsung Galaxy S21","platformVersion":"11.0","platformName":"android"},{"deviceName":"Google Pixel 6 Pro","platformVersion":"12.0","platformName":"android"}],"parallelsPerPlatform":1,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T19:10:01.818Z CLI info    Should start debug utility: undefined
+2026-06-27T19:10:01.819Z CLI info [testhub:module]   [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  Starting testhub from 41548:0
+2026-06-27T19:10:01.973Z CLI info   [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T19:10:01.975Z CLI info   [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T19:10:02.516Z CLI info   [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T19:10:02.517Z CLI info   [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T19:10:02.517Z CLI info   [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T19:10:04.041Z CLI info [testhub:module]   [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  startBuild: response=ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr
+2026-06-27T19:10:04.043Z CLI info  [ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr]  [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T19:10:04.729Z CLI info  [ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr]  [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T19:10:05.389Z CLI error  [ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr]  [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  error invoking callback for eventName: {}
+2026-06-27T19:10:05.389Z CLI error  [ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr]  [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T19:10:53.552Z CLI info [appautomate:service]  [ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr]  [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  Using app: bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73
+2026-06-27T19:38:30.255Z CLI info [main]    Server listening on port: 5401
+2026-06-27T19:38:30.679Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"deviceName":"Samsung Galaxy S22 Ultra","platformVersion":"12.0","platformName":"android"},{"deviceName":"Samsung Galaxy S21","platformVersion":"11.0","platformName":"android"},{"deviceName":"Google Pixel 6 Pro","platformVersion":"12.0","platformName":"android"}],"parallelsPerPlatform":1,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T19:38:30.698Z CLI info    Should start debug utility: undefined
+2026-06-27T19:38:30.699Z CLI info [testhub:module]   [d48d694e-8946-4812-8bbf-5bedf25dae14]  Starting testhub from 44656:0
+2026-06-27T19:38:30.849Z CLI info   [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T19:38:30.851Z CLI info   [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T19:38:31.321Z CLI info   [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T19:38:31.321Z CLI info   [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T19:38:31.321Z CLI info   [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T19:38:32.635Z CLI info [testhub:module]   [d48d694e-8946-4812-8bbf-5bedf25dae14]  startBuild: response=veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn
+2026-06-27T19:38:32.636Z CLI info  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T19:38:33.390Z CLI info  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T19:38:34.063Z CLI error  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  error invoking callback for eventName: {}
+2026-06-27T19:38:34.063Z CLI error  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T19:38:34.743Z CLI info [main]  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T19:38:34.743Z CLI info [main]  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T19:38:34.743Z CLI error [main]  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T19:38:34.744Z CLI info [main]  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  Received graceful signal termination (none), performing cleanup
+2026-06-27T19:38:34.746Z CLI info  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T19:38:35.416Z CLI info [testhub:module]  [veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn]  [d48d694e-8946-4812-8bbf-5bedf25dae14]  stopBuild: veoovnlrhfuxfg0hw0f1f9uyo3waelkh9msz11vn request={"finished_at":"2026-06-27T19:38:34.745Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T19:46:00.054Z CLI info [main]    Server listening on port: 5401
+2026-06-27T19:46:00.423Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T19:46:00.430Z CLI info    Should start debug utility: undefined
+2026-06-27T19:46:00.431Z CLI info [testhub:module]   [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  Starting testhub from 41132:0
+2026-06-27T19:46:00.549Z CLI info   [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T19:46:00.550Z CLI info   [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T19:46:00.999Z CLI info   [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T19:46:01.000Z CLI info   [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T19:46:01.000Z CLI info   [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T19:46:02.333Z CLI info [testhub:module]   [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  startBuild: response=tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix
+2026-06-27T19:46:02.334Z CLI info  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T19:46:03.099Z CLI info  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T19:46:03.783Z CLI error  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  error invoking callback for eventName: {}
+2026-06-27T19:46:03.783Z CLI error  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T19:46:04.435Z CLI info [main]  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T19:46:04.435Z CLI info [main]  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T19:46:04.435Z CLI error [main]  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T19:46:04.437Z CLI info [main]  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  Received graceful signal termination (none), performing cleanup
+2026-06-27T19:46:04.438Z CLI info  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T19:46:05.078Z CLI info [testhub:module]  [tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix]  [bcdd80f8-8ce8-4fef-9b6b-15917595b430]  stopBuild: tygry8qnywrsbpdvezmecq4ccuorcyg19sczroix request={"finished_at":"2026-06-27T19:46:04.437Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T19:58:40.387Z CLI info [main]    Server listening on port: 5401
+2026-06-27T19:58:40.685Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T19:58:40.692Z CLI info    Should start debug utility: undefined
+2026-06-27T19:58:40.693Z CLI info [testhub:module]   [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  Starting testhub from 46780:0
+2026-06-27T19:58:40.774Z CLI info   [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T19:58:40.775Z CLI info   [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T19:58:41.219Z CLI info   [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T19:58:41.219Z CLI info   [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T19:58:41.220Z CLI info   [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T19:58:42.786Z CLI info [testhub:module]   [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  startBuild: response=mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv
+2026-06-27T19:58:42.787Z CLI info  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T19:58:43.530Z CLI info  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T19:58:44.267Z CLI error  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  error invoking callback for eventName: {}
+2026-06-27T19:58:44.268Z CLI error  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T19:58:44.934Z CLI info [main]  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T19:58:44.934Z CLI info [main]  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T19:58:44.934Z CLI error [main]  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T19:58:44.936Z CLI info [main]  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  Received graceful signal termination (none), performing cleanup
+2026-06-27T19:58:44.937Z CLI info  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T19:58:45.573Z CLI info [testhub:module]  [mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv]  [1a1118e7-5782-48e4-aad7-9dcc9e9518fe]  stopBuild: mv5krk3w6gflf2whs5hsu4gvwr4aiemabmtnp7rv request={"finished_at":"2026-06-27T19:58:44.936Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T20:12:55.850Z CLI info [main]    Server listening on port: 5401
+2026-06-27T20:12:56.148Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T20:12:56.155Z CLI info    Should start debug utility: undefined
+2026-06-27T20:12:56.156Z CLI info [testhub:module]   [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  Starting testhub from 34376:0
+2026-06-27T20:12:56.233Z CLI info   [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T20:12:56.234Z CLI info   [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T20:12:56.824Z CLI info   [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T20:12:56.825Z CLI info   [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T20:12:56.826Z CLI info   [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T20:12:58.352Z CLI info [testhub:module]   [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  startBuild: response=2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn
+2026-06-27T20:12:58.354Z CLI info  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T20:12:59.119Z CLI info  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T20:12:59.776Z CLI error  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  error invoking callback for eventName: {}
+2026-06-27T20:12:59.776Z CLI error  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T20:13:00.447Z CLI info [main]  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:13:00.447Z CLI info [main]  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T20:13:00.447Z CLI error [main]  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:13:00.451Z CLI info [main]  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  Received graceful signal termination (none), performing cleanup
+2026-06-27T20:13:00.452Z CLI info  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T20:13:01.106Z CLI info [testhub:module]  [2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn]  [264471bd-eb1b-4751-a3f5-eccad6eab6b7]  stopBuild: 2n54kxabxkum8gkftijouge3t8s0xygm4haymkwn request={"finished_at":"2026-06-27T20:13:00.452Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T20:19:55.867Z CLI info [main]    Server listening on port: 5401
+2026-06-27T20:19:56.174Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T20:19:56.182Z CLI info    Should start debug utility: undefined
+2026-06-27T20:19:56.183Z CLI info [testhub:module]   [bc487569-ef4e-40ce-b237-abac3a1a895b]  Starting testhub from 43648:0
+2026-06-27T20:19:56.263Z CLI info   [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T20:19:56.264Z CLI info   [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T20:19:56.761Z CLI info   [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T20:19:56.761Z CLI info   [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T20:19:56.762Z CLI info   [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T20:19:58.233Z CLI info [testhub:module]   [bc487569-ef4e-40ce-b237-abac3a1a895b]  startBuild: response=tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h
+2026-06-27T20:19:58.237Z CLI info  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T20:19:58.985Z CLI info  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T20:19:59.659Z CLI error  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  error invoking callback for eventName: {}
+2026-06-27T20:19:59.659Z CLI error  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T20:20:00.317Z CLI info [main]  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:20:00.318Z CLI info [main]  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T20:20:00.318Z CLI error [main]  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:20:00.321Z CLI info [main]  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  Received graceful signal termination (none), performing cleanup
+2026-06-27T20:20:00.322Z CLI info  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T20:20:00.981Z CLI info [testhub:module]  [tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h]  [bc487569-ef4e-40ce-b237-abac3a1a895b]  stopBuild: tk2lsznszykka1pjcblmfd8qlnifn6t0db8kcf7h request={"finished_at":"2026-06-27T20:20:00.322Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T20:41:00.854Z CLI info [main]    Server listening on port: 5401
+2026-06-27T20:41:01.152Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T20:41:01.160Z CLI info    Should start debug utility: undefined
+2026-06-27T20:41:01.160Z CLI info [testhub:module]   [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  Starting testhub from 10828:0
+2026-06-27T20:41:01.242Z CLI info   [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T20:41:01.243Z CLI info   [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T20:41:01.738Z CLI info   [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T20:41:01.738Z CLI info   [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T20:41:01.739Z CLI info   [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T20:41:03.243Z CLI info [testhub:module]   [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  startBuild: response=k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes
+2026-06-27T20:41:03.246Z CLI info  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T20:41:04.002Z CLI info  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T20:41:04.643Z CLI error  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  error invoking callback for eventName: {}
+2026-06-27T20:41:04.643Z CLI error  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T20:41:05.291Z CLI info [main]  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:41:05.291Z CLI info [main]  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T20:41:05.291Z CLI error [main]  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:41:05.295Z CLI info [main]  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  Received graceful signal termination (none), performing cleanup
+2026-06-27T20:41:05.297Z CLI info  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T20:41:05.917Z CLI info [testhub:module]  [k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes]  [a3ba4cbb-ca16-459a-8fae-f40a0047e63e]  stopBuild: k4zif897cfmwxxv3tmzxvssmbgcaapo1tcm9loes request={"finished_at":"2026-06-27T20:41:05.296Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T20:55:18.930Z CLI info [main]    Server listening on port: 5401
+2026-06-27T20:55:19.222Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T20:55:19.230Z CLI info    Should start debug utility: undefined
+2026-06-27T20:55:19.231Z CLI info [testhub:module]   [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  Starting testhub from 37336:0
+2026-06-27T20:55:19.317Z CLI info   [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T20:55:19.318Z CLI info   [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T20:55:19.820Z CLI info   [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T20:55:19.821Z CLI info   [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T20:55:19.821Z CLI info   [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T20:55:21.326Z CLI info [testhub:module]   [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  startBuild: response=pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp
+2026-06-27T20:55:21.328Z CLI info  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T20:55:22.001Z CLI info  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T20:55:22.678Z CLI error  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  error invoking callback for eventName: {}
+2026-06-27T20:55:22.678Z CLI error  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T20:55:23.357Z CLI info [main]  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:55:23.357Z CLI info [main]  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T20:55:23.357Z CLI error [main]  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:55:23.359Z CLI info [main]  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  Received graceful signal termination (none), performing cleanup
+2026-06-27T20:55:23.360Z CLI info  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T20:55:23.966Z CLI info [testhub:module]  [pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp]  [c571a6a9-43fd-4e99-882d-bfb03e8a75c2]  stopBuild: pzylfhc5pi44rt6ebnkwfkmkekm7oacgl8qswuqp request={"finished_at":"2026-06-27T20:55:23.359Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T20:55:40.919Z CLI info [main]    Server listening on port: 5401
+2026-06-27T20:55:41.221Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T20:55:41.228Z CLI info    Should start debug utility: undefined
+2026-06-27T20:55:41.229Z CLI info [testhub:module]   [82776490-eb39-47c8-a286-f975c75f3a0b]  Starting testhub from 13060:0
+2026-06-27T20:55:41.303Z CLI info   [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T20:55:41.304Z CLI info   [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T20:55:41.692Z CLI info   [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T20:55:41.693Z CLI info   [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T20:55:41.693Z CLI info   [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T20:55:43.124Z CLI info [testhub:module]   [82776490-eb39-47c8-a286-f975c75f3a0b]  startBuild: response=wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe
+2026-06-27T20:55:43.126Z CLI info  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T20:55:43.791Z CLI info  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T20:55:44.466Z CLI error  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  error invoking callback for eventName: {}
+2026-06-27T20:55:44.466Z CLI error  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T20:55:45.071Z CLI info [main]  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:55:45.071Z CLI info [main]  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T20:55:45.071Z CLI error [main]  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T20:55:45.074Z CLI info [main]  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  Received graceful signal termination (none), performing cleanup
+2026-06-27T20:55:45.076Z CLI info  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T20:55:45.631Z CLI info [testhub:module]  [wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe]  [82776490-eb39-47c8-a286-f975c75f3a0b]  stopBuild: wfibvzzn5cghb2vzkqudjnaeowgxy5qypddv7ebe request={"finished_at":"2026-06-27T20:55:45.075Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T21:22:04.302Z CLI info  [ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr]  [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T22:10:08.790Z CLI info [main]    Server listening on port: 5401
+2026-06-27T22:10:09.210Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T22:10:09.223Z CLI info    Should start debug utility: undefined
+2026-06-27T22:10:09.224Z CLI info [testhub:module]   [5f4082e9-dadb-4001-a5bc-ab030614748b]  Starting testhub from 29804:0
+2026-06-27T22:10:09.351Z CLI info   [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T22:10:09.352Z CLI info   [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T22:10:09.801Z CLI info   [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T22:10:09.802Z CLI info   [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T22:10:09.802Z CLI info   [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T22:10:11.363Z CLI info [testhub:module]   [5f4082e9-dadb-4001-a5bc-ab030614748b]  startBuild: response=0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj
+2026-06-27T22:10:11.365Z CLI info  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T22:10:12.110Z CLI info  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T22:10:12.765Z CLI error  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  error invoking callback for eventName: {}
+2026-06-27T22:10:12.765Z CLI error  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T22:10:13.435Z CLI info [main]  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:10:13.435Z CLI info [main]  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T22:10:13.435Z CLI error [main]  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:10:13.437Z CLI info [main]  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  Received graceful signal termination (none), performing cleanup
+2026-06-27T22:10:13.438Z CLI info  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T22:10:14.080Z CLI info [testhub:module]  [0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj]  [5f4082e9-dadb-4001-a5bc-ab030614748b]  stopBuild: 0u0dtxi4hl3y0u7sygux4krl6wlamuntvihhgohj request={"finished_at":"2026-06-27T22:10:13.437Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T22:14:41.143Z CLI info [main]    Server listening on port: 5401
+2026-06-27T22:14:41.438Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T22:14:41.446Z CLI info    Should start debug utility: undefined
+2026-06-27T22:14:41.447Z CLI info [testhub:module]   [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  Starting testhub from 37840:0
+2026-06-27T22:14:41.549Z CLI info   [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T22:14:41.550Z CLI info   [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T22:14:42.033Z CLI info   [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T22:14:42.034Z CLI info   [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T22:14:42.034Z CLI info   [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T22:14:43.337Z CLI info [testhub:module]   [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  startBuild: response=hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj
+2026-06-27T22:14:43.338Z CLI info  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T22:14:44.093Z CLI info  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T22:14:44.766Z CLI error  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  error invoking callback for eventName: {}
+2026-06-27T22:14:44.766Z CLI error  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T22:14:45.402Z CLI info [main]  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:14:45.402Z CLI info [main]  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T22:14:45.402Z CLI error [main]  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:14:45.403Z CLI info [main]  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  Received graceful signal termination (none), performing cleanup
+2026-06-27T22:14:45.404Z CLI info  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T22:14:46.022Z CLI info [testhub:module]  [hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj]  [f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7]  stopBuild: hql45acv1en7x7hyoolgubvqbnffqg1ru597nztj request={"finished_at":"2026-06-27T22:14:45.404Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T22:19:15.020Z CLI info [main]    Server listening on port: 5401
+2026-06-27T22:19:15.306Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T22:19:15.314Z CLI info    Should start debug utility: undefined
+2026-06-27T22:19:15.314Z CLI info [testhub:module]   [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  Starting testhub from 22532:0
+2026-06-27T22:19:15.414Z CLI info   [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T22:19:15.415Z CLI info   [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T22:19:15.953Z CLI info   [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T22:19:15.953Z CLI info   [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T22:19:15.954Z CLI info   [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T22:19:17.291Z CLI info [testhub:module]   [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  startBuild: response=0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l
+2026-06-27T22:19:17.292Z CLI info  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T22:19:18.091Z CLI info  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T22:19:18.753Z CLI error  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  error invoking callback for eventName: {}
+2026-06-27T22:19:18.753Z CLI error  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T22:19:19.386Z CLI info [main]  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:19:19.386Z CLI info [main]  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T22:19:19.386Z CLI error [main]  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:19:19.388Z CLI info [main]  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  Received graceful signal termination (none), performing cleanup
+2026-06-27T22:19:19.389Z CLI info  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T22:19:20.030Z CLI info [testhub:module]  [0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l]  [48cd80f7-9122-4c2a-aacd-5566cdd4649b]  stopBuild: 0xqybte7kwpsv7whvl571ml9zyanzsyumxcaln3l request={"finished_at":"2026-06-27T22:19:19.389Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T22:22:22.382Z CLI info [main]    Server listening on port: 5401
+2026-06-27T22:22:22.668Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Tests on Cloud","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","app":"bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73","platforms":[{"platformName":"android","deviceName":"Google Pixel 9","platformVersion":"17.0","deviceOrientation":"portrait"}],"parallelsPerPlatform":3,"source":"java:appium-intellij:2.0.5-IU","browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors"}
+2026-06-27T22:22:22.676Z CLI info    Should start debug utility: undefined
+2026-06-27T22:22:22.676Z CLI info [testhub:module]   [75d908d7-a53b-4b11-999f-35d085bf9e9c]  Starting testhub from 37704:0
+2026-06-27T22:22:22.776Z CLI info   [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-06-27T22:22:22.777Z CLI info   [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-06-27T22:22:23.237Z CLI info   [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-06-27T22:22:23.237Z CLI info   [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-06-27T22:22:23.238Z CLI info   [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-06-27T22:22:24.554Z CLI info [testhub:module]   [75d908d7-a53b-4b11-999f-35d085bf9e9c]  startBuild: response=jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri
+2026-06-27T22:22:24.555Z CLI info  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-06-27T22:22:25.295Z CLI info  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-06-27T22:22:25.942Z CLI error  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  error invoking callback for eventName: {}
+2026-06-27T22:22:25.942Z CLI error  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  Error: invalid percyToken=null
+    at C:\snapshot\browserstack-binary\cli\dist\index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-06-27T22:22:26.604Z CLI info [main]  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:22:26.604Z CLI info [main]  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  Upgrade available: Please update from beta to the latest stable version.
+2026-06-27T22:22:26.604Z CLI error [main]  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\Lenovo\.browserstack\BrowserStackLocal.exe'
+2026-06-27T22:22:26.606Z CLI info [main]  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  Received graceful signal termination (none), performing cleanup
+2026-06-27T22:22:26.606Z CLI info  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-06-27T22:22:27.207Z CLI info [testhub:module]  [jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri]  [75d908d7-a53b-4b11-999f-35d085bf9e9c]  stopBuild: jzdl7ksbffiz7zoyn2ycjbb5qdoolmimjnudwiri request={"finished_at":"2026-06-27T22:22:26.606Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-06-27T23:34:04.318Z CLI info  [ylapwygjjrwkqjmnxhwi4au7cpd0slrkduifanvr]  [a8aa176f-3946-4b74-bbfc-d7e239c94a89]  [PRODUCTION] Making POST request to https://sdk.browserstack.com

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/ITI_Courses/Appium_mobile_automation_self_study/General-Store-Hybrid-App-Appium-Automation">
+        <classes>
+            <class name="test_cases.android_tests.EndToEndTest">
+                <methods>
+                    <include name="testCheckoutFlow"/>
+                </methods>
+            </class>
+            <class name="test_cases.android_tests.HomePageTest">
+                <methods>
+                    <include name="testValidFormSubmission"/>
+                    <include name="testSubmittingFormWithEmptyNameField"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

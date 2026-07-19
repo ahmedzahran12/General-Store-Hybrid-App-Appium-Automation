@@ -1,0 +1,1065 @@
+22:09:56.219 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:09:56.220 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:09:56.266 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:09:56.308 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+22:09:56.613 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+22:09:56.616 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:09:56.625 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:09:56.625 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:09:56.625 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:09:56.700 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+22:09:56.700 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:09:56.702 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: f46e8a08-3701-4e16-bf4b-37db9e6af0e1
+22:09:56.704 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:10:00.765 [main] INFO  com.browserstack.v2.SdkCliUtils - CLI update check successful. Status: 200
+22:10:00.778 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+22:10:01.599 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=a8aa176f-3946-4b74-bbfc-d7e239c94a89 listenAddress=127.0.0.1:5400
+22:10:36.744 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+22:10:36.746 [SIGINT handler] INFO  c.b.config.BrowserStackConfig - INFO
+22:10:36.746 [SIGINT handler] WARN  c.b.u.ClientTroubleshootingService - [SDK-TRA-005] Some tests might not appear on the BrowserStack dashboard because the test process was interrupted with INT 2.
+22:10:36.754 [Thread-0] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:o11y:print-buildlink': java.lang.NullPointerException: Cannot invoke "com.browserstack.config.BrowserStackConfig.isGaugeTestOpsSession()" because "com.browserstack.testOps.Listener.b" is null
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+22:10:36.756 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+22:10:39.516 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:10:39.516 [Thread-0] WARN  c.b.u.ClientTroubleshootingService - Uh-oh! We detected some issues during this run. Error codes: [SDK-TRA-005]. For details and troubleshooting steps, visit https://www.browserstack.com/docs/test-reporting-and-analytics/sdk-troubleshooting/error-codes?ref=sdk.
+22:10:40.789 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: f46e8a08-3701-4e16-bf4b-37db9e6af0e1, testhub id: 
+22:10:40.789 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:38:29.040 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:38:29.043 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:38:29.089 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:38:29.134 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+22:38:29.429 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+22:38:29.432 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:38:29.439 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:38:29.441 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:38:29.441 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:38:29.514 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+22:38:29.514 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:38:29.517 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 25804dbe-f16c-4e64-abd3-f750ffebe8d3
+22:38:29.517 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:38:29.554 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+22:38:29.565 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+22:38:30.441 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=d48d694e-8946-4812-8bbf-5bedf25dae14 listenAddress=127.0.0.1:5401
+22:38:35.429 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+22:38:35.431 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+22:38:36.333 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:38:37.219 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 0l0sddqxtvtlfckofddogfvho786hduem6valexg
+22:38:37.219 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:38:37.220 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+22:38:37.768 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+22:38:37.768 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:38:44.009 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:42:03.700 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/0l0sddqxtvtlfckofddogfvho786hduem6valexg to view build report, insights, and many more debugging information all at one place!
+
+22:42:03.700 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:42:03.701 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+22:42:09.884 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/957c7913eadbaa8aebc0ca3f27b0946d146b3b2b
+22:42:09.884 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:42:09.890 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 25804dbe-f16c-4e64-abd3-f750ffebe8d3, testhub id: 0l0sddqxtvtlfckofddogfvho786hduem6valexg
+22:42:09.890 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:45:58.831 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:45:58.832 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:45:58.879 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:45:58.922 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+22:45:59.218 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+22:45:59.221 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:45:59.230 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:45:59.230 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:45:59.230 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:45:59.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+22:45:59.305 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:45:59.308 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 3e5a7144-2799-49f4-8bfc-359405b0e3e0
+22:45:59.308 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:45:59.341 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+22:45:59.352 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+22:46:00.214 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=bcdd80f8-8ce8-4fef-9b6b-15917595b430 listenAddress=127.0.0.1:5401
+22:46:05.099 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+22:46:05.103 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+22:46:07.173 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:46:08.174 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: nhd1wnkljnhsle8o2pn0e0yamabes0bw9dpzigvy
+22:46:08.174 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:46:08.175 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+22:46:08.699 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+22:46:08.700 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:46:14.913 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:46:14.913 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+22:47:27.130 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/nhd1wnkljnhsle8o2pn0e0yamabes0bw9dpzigvy to view build report, insights, and many more debugging information all at one place!
+
+22:47:27.130 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:47:27.132 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+22:47:33.703 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/1d459eb55c7e6980769661e0f2d7e0fdea264b90
+22:47:33.703 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:47:33.705 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 3e5a7144-2799-49f4-8bfc-359405b0e3e0, testhub id: nhd1wnkljnhsle8o2pn0e0yamabes0bw9dpzigvy
+22:47:33.705 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:58:39.242 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:58:39.243 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+22:58:39.285 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:58:39.325 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+22:58:39.557 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+22:58:39.560 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:58:39.567 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:58:39.567 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:58:39.567 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:58:39.643 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+22:58:39.643 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:58:39.645 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: d0903196-1fdf-4517-aef5-f73c2b53bf84
+22:58:39.645 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:58:39.677 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+22:58:39.686 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+22:58:40.511 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=1a1118e7-5782-48e4-aad7-9dcc9e9518fe listenAddress=127.0.0.1:5401
+22:58:45.591 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+22:58:45.593 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+22:58:46.400 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:58:47.317 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: gloyonx5ybjvyh7imsl6tmnsa6oda7ybd6ghw5pb
+22:58:47.317 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:58:47.318 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+22:58:47.854 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+22:58:47.854 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:58:53.425 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:58:53.426 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+23:00:14.198 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/gloyonx5ybjvyh7imsl6tmnsa6oda7ybd6ghw5pb to view build report, insights, and many more debugging information all at one place!
+
+23:00:14.198 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:00:14.200 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:00:20.659 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/513a41fd20ef44acf19e78cd2dd83caef2010284
+23:00:20.659 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:00:20.661 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: d0903196-1fdf-4517-aef5-f73c2b53bf84, testhub id: gloyonx5ybjvyh7imsl6tmnsa6oda7ybd6ghw5pb
+23:00:20.661 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:12:54.668 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:12:54.671 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:12:54.712 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:12:54.752 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+23:12:55.008 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+23:12:55.011 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+23:12:55.022 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+23:12:55.022 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+23:12:55.022 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+23:12:55.101 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+23:12:55.101 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:12:55.103 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 5502b195-792b-4d5c-9577-248e354e6b79
+23:12:55.103 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:12:55.137 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+23:12:55.146 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+23:12:55.972 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=264471bd-eb1b-4751-a3f5-eccad6eab6b7 listenAddress=127.0.0.1:5401
+23:13:01.137 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+23:13:01.142 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+23:13:03.215 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:13:04.133 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 4nrrdrutlipoelj6gfo3guz1zuq7r1sapjijbghd
+23:13:04.134 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:13:04.134 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:13:04.642 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+23:13:04.642 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:13:10.586 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:13:10.586 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+23:14:23.917 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/4nrrdrutlipoelj6gfo3guz1zuq7r1sapjijbghd to view build report, insights, and many more debugging information all at one place!
+
+23:14:23.917 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:14:23.918 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:14:31.016 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/bc896cf474ac38067851c0710dc884420d219921
+23:14:31.016 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:14:31.021 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 5502b195-792b-4d5c-9577-248e354e6b79, testhub id: 4nrrdrutlipoelj6gfo3guz1zuq7r1sapjijbghd
+23:14:31.021 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:19:54.730 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:19:54.731 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:19:54.774 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:19:54.814 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+23:19:55.045 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+23:19:55.048 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+23:19:55.055 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+23:19:55.056 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+23:19:55.056 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+23:19:55.130 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+23:19:55.130 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:19:55.132 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 7eb96ffc-8591-459e-9994-dd338f37b5cf
+23:19:55.132 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:19:55.164 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+23:19:55.172 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+23:19:55.995 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=bc487569-ef4e-40ce-b237-abac3a1a895b listenAddress=127.0.0.1:5401
+23:20:01.004 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+23:20:01.007 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+23:20:03.205 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:20:04.302 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: yw0z0hbjfoebcegu9rib5akczquhxs0xcwyojwk7
+23:20:04.302 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:20:04.303 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:20:04.850 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+23:20:04.851 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:20:10.921 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:20:10.921 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+23:21:21.946 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/yw0z0hbjfoebcegu9rib5akczquhxs0xcwyojwk7 to view build report, insights, and many more debugging information all at one place!
+
+23:21:21.946 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:21:21.946 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:21:28.927 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/d3f327b7fe5b0325552522bf65add9b45dae2c40
+23:21:28.927 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:21:28.931 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 7eb96ffc-8591-459e-9994-dd338f37b5cf, testhub id: yw0z0hbjfoebcegu9rib5akczquhxs0xcwyojwk7
+23:21:28.931 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:40:59.694 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:40:59.696 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:40:59.736 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:40:59.780 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+23:41:00.027 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+23:41:00.030 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+23:41:00.037 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+23:41:00.037 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+23:41:00.037 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+23:41:00.107 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+23:41:00.107 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:41:00.109 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 5836daba-78ec-485e-9931-83e40fe4f3d9
+23:41:00.109 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:41:00.141 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+23:41:00.149 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+23:41:00.976 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=a3ba4cbb-ca16-459a-8fae-f40a0047e63e listenAddress=127.0.0.1:5401
+23:41:05.939 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+23:41:05.942 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+23:41:07.992 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:41:09.018 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: g2bhu6jgntskspfiwlznazfvmhekbj798hsis3t8
+23:41:09.018 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:41:09.023 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:41:09.595 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+23:41:09.596 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:41:15.308 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:41:15.308 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+23:45:19.715 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+23:45:19.716 [SIGINT handler] INFO  c.b.config.BrowserStackConfig - INFO
+23:45:19.716 [SIGINT handler] WARN  c.b.u.ClientTroubleshootingService - [SDK-TRA-005] Some tests might not appear on the BrowserStack dashboard because the test process was interrupted with INT 2.
+23:45:20.568 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/g2bhu6jgntskspfiwlznazfvmhekbj798hsis3t8 to view build report, insights, and many more debugging information all at one place!
+
+23:45:20.568 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:45:20.569 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:45:27.323 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:45:27.323 [Thread-0] WARN  c.b.u.ClientTroubleshootingService - Uh-oh! We detected some issues during this run. Error codes: [SDK-TRA-005]. For details and troubleshooting steps, visit https://www.browserstack.com/docs/test-reporting-and-analytics/sdk-troubleshooting/error-codes?ref=sdk.
+23:45:28.180 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/5ecd326a4ccfa53c7b8ae06fd8ead023b82138bf
+23:45:28.181 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:45:29.618 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 5836daba-78ec-485e-9931-83e40fe4f3d9, testhub id: g2bhu6jgntskspfiwlznazfvmhekbj798hsis3t8
+23:45:29.618 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:53:32.454 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+23:53:32.558 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+23:53:42.978 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+23:54:15.169 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+23:54:15.895 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+23:55:17.647 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:55:17.648 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:55:17.689 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:55:17.730 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+23:55:17.967 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+23:55:17.971 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+23:55:17.980 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+23:55:17.981 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+23:55:17.981 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+23:55:18.053 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+23:55:18.053 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:55:18.055 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1e62e82d-eb81-4862-b613-a7ebb09d0b03
+23:55:18.055 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:18.087 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+23:55:18.097 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+23:55:19.049 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=c571a6a9-43fd-4e99-882d-bfb03e8a75c2 listenAddress=127.0.0.1:5401
+23:55:20.139 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+23:55:20.140 [SIGINT handler] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:20.140 [SIGINT handler] WARN  c.b.u.ClientTroubleshootingService - [SDK-TRA-005] Some tests might not appear on the BrowserStack dashboard because the test process was interrupted with INT 2.
+23:55:20.147 [Thread-0] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:o11y:print-buildlink': java.lang.NullPointerException: Cannot invoke "com.browserstack.config.BrowserStackConfig.isGaugeTestOpsSession()" because "com.browserstack.testOps.Listener.b" is null
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy7.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+23:55:20.149 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:55:23.979 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+23:55:23.980 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+23:55:24.231 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:55:24.929 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:24.929 [Thread-0] WARN  c.b.u.ClientTroubleshootingService - Uh-oh! We detected some issues during this run. Error codes: [SDK-TRA-005]. For details and troubleshooting steps, visit https://www.browserstack.com/docs/test-reporting-and-analytics/sdk-troubleshooting/error-codes?ref=sdk.
+23:55:25.139 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: h67w3yl6kxsjy3nyojtrtbpmghhriunrqjfjr4wt
+23:55:25.139 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:25.139 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:55:25.657 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+23:55:25.657 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:55:25.867 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 1e62e82d-eb81-4862-b613-a7ebb09d0b03, testhub id: h67w3yl6kxsjy3nyojtrtbpmghhriunrqjfjr4wt
+23:55:25.867 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:39.747 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:55:39.748 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+23:55:39.791 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+23:55:39.831 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+23:55:40.066 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+23:55:40.069 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+23:55:40.076 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+23:55:40.076 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+23:55:40.076 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+23:55:40.152 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+23:55:40.152 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:55:40.153 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 132d7a9f-7b11-4c3d-b9bb-713f39549061
+23:55:40.154 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:40.187 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+23:55:40.196 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+23:55:41.039 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=82776490-eb39-47c8-a286-f975c75f3a0b listenAddress=127.0.0.1:5401
+23:55:45.661 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+23:55:45.666 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+23:55:47.729 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:55:48.609 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: nmeqovbf9sggkmlyhkyknbzv4pxasrbgvllkre3y
+23:55:48.609 [main] INFO  c.b.config.BrowserStackConfig - INFO
+23:55:48.610 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+23:55:49.150 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+23:55:49.150 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:55:54.985 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:55:54.986 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+23:57:00.004 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/nmeqovbf9sggkmlyhkyknbzv4pxasrbgvllkre3y to view build report, insights, and many more debugging information all at one place!
+
+23:57:00.004 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:57:00.005 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+23:57:06.933 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/46596356ca97428063f1a4cf0c9068363f577548
+23:57:06.933 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:57:06.937 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 132d7a9f-7b11-4c3d-b9bb-713f39549061, testhub id: nmeqovbf9sggkmlyhkyknbzv4pxasrbgvllkre3y
+23:57:06.937 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:58:20.882 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+23:58:27.506 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:03:30.945 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+00:03:31.047 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:03:37.958 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:07:18.117 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+00:07:18.235 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:07:26.846 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:08:26.818 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:08:27.356 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:30:36.623 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+00:30:36.758 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:30:45.848 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:30:46.611 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:31:28.334 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+00:31:28.446 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:31:35.262 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:31:35.849 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:33:39.562 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+00:33:39.674 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:33:46.259 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:33:46.782 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:47:21.196 [main] TRACE c.b.config.BrowserStackConfig - isGaugeTestOpsSession called with testObservabilityExplicit: false, framework: null, returning: false
+00:47:21.320 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:47:28.956 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:48:47.823 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+00:48:48.370 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file D:\ITI_Courses\Appium_mobile_automation_self_study\General-Store-Hybrid-App-Appium-Automation\log\key-metrics.json
+01:10:07.505 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:10:07.506 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:10:07.549 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+01:10:07.594 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+01:10:07.851 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+01:10:07.854 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+01:10:07.862 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+01:10:07.863 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+01:10:07.863 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+01:10:07.940 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+01:10:07.940 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:10:07.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e7939627-d58d-4b6e-aae7-2d1bd2450fc0
+01:10:07.944 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:10:07.983 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+01:10:07.993 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+01:10:08.969 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=5f4082e9-dadb-4001-a5bc-ab030614748b listenAddress=127.0.0.1:5401
+01:10:14.112 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+01:10:14.114 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+01:10:16.256 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:10:17.230 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: bpnoghf4neqxvc00zcrb323lsenf5hvxswuwxrsz
+01:10:17.230 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:10:17.231 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+01:10:17.777 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+01:10:17.777 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:10:24.257 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:10:24.258 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+01:13:44.860 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+01:13:44.861 [SIGINT handler] INFO  c.b.config.BrowserStackConfig - INFO
+01:13:44.861 [SIGINT handler] WARN  c.b.u.ClientTroubleshootingService - [SDK-TRA-005] Some tests might not appear on the BrowserStack dashboard because the test process was interrupted with INT 2.
+01:13:45.705 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/bpnoghf4neqxvc00zcrb323lsenf5hvxswuwxrsz to view build report, insights, and many more debugging information all at one place!
+
+01:13:45.705 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:13:45.707 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+01:14:40.009 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:14:40.010 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:14:40.050 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+01:14:40.089 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+01:14:40.317 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+01:14:40.320 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+01:14:40.328 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+01:14:40.328 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+01:14:40.328 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+01:14:40.398 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+01:14:40.398 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:14:40.401 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 00c1355c-224f-4026-919a-a5637e4f17bf
+01:14:40.401 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:14:40.433 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+01:14:40.442 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+01:14:41.264 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=f4145b74-2a7b-4a25-a3ed-cb3d4ce750f7 listenAddress=127.0.0.1:5401
+01:14:46.035 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+01:14:46.037 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+01:14:46.848 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:14:47.733 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: 7jnkakqefrbxdddshlbxnsixxnfltg5dfjpsl0zy
+01:14:47.733 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:14:47.733 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+01:14:48.262 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+01:14:48.262 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:14:54.171 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:14:54.171 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+01:16:37.373 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/7jnkakqefrbxdddshlbxnsixxnfltg5dfjpsl0zy to view build report, insights, and many more debugging information all at one place!
+
+01:16:37.373 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:16:37.374 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+01:16:45.478 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/8631f9a13e5d60bcff6c10d04fd6752b08432bcc
+01:16:45.479 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:16:45.484 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 00c1355c-224f-4026-919a-a5637e4f17bf, testhub id: 7jnkakqefrbxdddshlbxnsixxnfltg5dfjpsl0zy
+01:16:45.484 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:19:13.899 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:19:13.900 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:19:13.941 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+01:19:13.982 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+01:19:14.201 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+01:19:14.204 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+01:19:14.211 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+01:19:14.211 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+01:19:14.211 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+01:19:14.283 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+01:19:14.283 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:19:14.285 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: c1bc07e0-fa4c-450c-863c-f88f3d817a13
+01:19:14.285 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:19:14.317 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+01:19:14.327 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+01:19:15.134 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=48cd80f7-9122-4c2a-aacd-5566cdd4649b listenAddress=127.0.0.1:5401
+01:19:20.042 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+01:19:20.045 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+01:19:20.832 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:19:21.712 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: hrmhrbcticawavcxar9fqdgvfivt797rgrhjqidk
+01:19:21.712 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:19:21.712 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+01:19:22.225 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+01:19:22.226 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:19:28.002 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:19:28.002 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+01:21:09.587 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/hrmhrbcticawavcxar9fqdgvfivt797rgrhjqidk to view build report, insights, and many more debugging information all at one place!
+
+01:21:09.587 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:21:09.589 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+01:21:17.939 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/75a15924770e17b38957a0de29529e698dce387b
+01:21:17.939 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:21:17.946 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: c1bc07e0-fa4c-450c-863c-f88f3d817a13, testhub id: hrmhrbcticawavcxar9fqdgvfivt797rgrhjqidk
+01:21:17.946 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:22:21.233 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:22:21.234 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: C:\Users\Lenovo\.m2\repository\com\browserstack\browserstack-java-sdk\1.61.0\browserstack-java-sdk-1.61.0.jar
+01:22:21.274 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+01:22:21.315 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.45.0
+01:22:21.548 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 10.1.1
+01:22:21.551 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+01:22:21.560 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+01:22:21.560 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+01:22:21.560 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+01:22:21.635 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [-bs://80b91a1c032e6d59e125b43b76fcc55f0abf0c73]
+01:22:21.635 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+01:22:21.641 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e55d29ca-7942-4316-afb2-97a109a1bef4
+01:22:21.642 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:22:21.674 [main] WARN  com.browserstack.v2.SdkCliUtils - Existing binary is currently in use, skipping update: C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe
+01:22:21.684 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\Lenovo\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+01:22:22.501 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=75d908d7-a53b-4b11-999f-35d085bf9e9c listenAddress=127.0.0.1:5401
+01:22:27.224 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:startBinSession': browserstack.shaded.io.grpc.StatusRuntimeException: UNAVAILABLE: io exception
+	at browserstack.shaded.io.grpc.stub.ClientCalls.toStatusRuntimeException(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.getUnchecked(Unknown Source)
+	at browserstack.shaded.io.grpc.stub.ClientCalls.blockingUnaryCall(Unknown Source)
+	at browserstack.sdk.v1.SDKGrpc$SDKBlockingStub.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.b(Unknown Source)
+	at com.browserstack.v2.SdkCLI.startBinSession(Unknown Source)
+	at com.browserstack.v2.SdkCLI.c(Unknown Source)
+	at com.browserstack.v2.SdkCLI.a(Unknown Source)
+	at com.browserstack.v2.SdkCLI.bootstrap(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:399)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:431)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:489)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.PooledByteBuf.setBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.buffer.AbstractByteBuf.writeBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKey(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.processSelectedKeys(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.channel.nio.NioEventLoop.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(Unknown Source)
+	at browserstack.shaded.io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+01:22:27.226 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+01:22:28.049 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+01:22:29.007 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: zvoge769qf0go0ltohphsqmrrvmtlpopwpokc92o
+01:22:29.007 [main] INFO  c.b.config.BrowserStackConfig - INFO
+01:22:29.008 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+01:22:29.543 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+01:22:29.543 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+01:22:35.091 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+01:22:35.092 [main] INFO  c.browserstack.BrowserStackJavaAgent - Set parallel execution properties for parallelsPerPlatform: 3
+01:24:08.363 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/zvoge769qf0go0ltohphsqmrrvmtlpopwpokc92o to view build report, insights, and many more debugging information all at one place!
+
+01:24:08.363 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:24:08.364 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+01:24:16.475 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/1e5a1f8d150e0fd53ebb64a3d1aca09cf9bd127b
+01:24:16.475 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+01:24:16.477 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: e55d29ca-7942-4316-afb2-97a109a1bef4, testhub id: zvoge769qf0go0ltohphsqmrrvmtlpopwpokc92o
+01:24:16.477 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
